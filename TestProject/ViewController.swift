@@ -7,12 +7,22 @@
 //
 
 import UIKit
+//import Cocoa
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         // Do any additional setup after loading the view, typically from a nib.
+
+        /* Variables Tutorials*/
+        tryOutVariableTutorials()
+        
+        /* Array tutorials */
+        tryOutArrayTutorials()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +30,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+    
 
 }
 
