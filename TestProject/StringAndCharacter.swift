@@ -9,6 +9,7 @@
 import Foundation
 
 public func tryOutVariableTutorials(){
+    print("\n\nVariables Tutorials *****\n")
 
     
     /** Variable as string*/

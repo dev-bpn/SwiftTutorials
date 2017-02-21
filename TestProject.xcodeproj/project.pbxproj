@@ -16,6 +16,13 @@
 		D4036B631E56C5E40032B8CE /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4036B621E56C5E40032B8CE /* TestProjectUITests.swift */; };
 		D4036B911E56F9220032B8CE /* StringAndCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4036B901E56F9220032B8CE /* StringAndCharacter.swift */; };
 		D4036B951E5709FD0032B8CE /* ArrayTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4036B941E5709FD0032B8CE /* ArrayTutorials.swift */; };
+		D47C44591E5BF8C100EBCB21 /* ForLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44581E5BF8C100EBCB21 /* ForLoops.swift */; };
+		D47C445B1E5BFF6D00EBCB21 /* WhileLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C445A1E5BFF6D00EBCB21 /* WhileLoops.swift */; };
+		D47C445E1E5C018400EBCB21 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C445D1E5C018400EBCB21 /* RandomNumber.swift */; };
+		D47C44611E5C050E00EBCB21 /* CastingTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44601E5C050E00EBCB21 /* CastingTutorials.swift */; };
+		D47C44641E5C06FD00EBCB21 /* DictionaryTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44631E5C06FD00EBCB21 /* DictionaryTutorials.swift */; };
+		D47C44661E5C0C6000EBCB21 /* IterateDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44651E5C0C6000EBCB21 /* IterateDictionary.swift */; };
+		D47C44691E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		D4036B641E56C5E40032B8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4036B901E56F9220032B8CE /* StringAndCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringAndCharacter.swift; sourceTree = "<group>"; };
 		D4036B941E5709FD0032B8CE /* ArrayTutorials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTutorials.swift; sourceTree = "<group>"; };
+		D47C44581E5BF8C100EBCB21 /* ForLoops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForLoops.swift; sourceTree = "<group>"; };
+		D47C445A1E5BFF6D00EBCB21 /* WhileLoops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhileLoops.swift; sourceTree = "<group>"; };
+		D47C445D1E5C018400EBCB21 /* RandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		D47C44601E5C050E00EBCB21 /* CastingTutorials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastingTutorials.swift; sourceTree = "<group>"; };
+		D47C44631E5C06FD00EBCB21 /* DictionaryTutorials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTutorials.swift; sourceTree = "<group>"; };
+		D47C44651E5C0C6000EBCB21 /* IterateDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IterateDictionary.swift; sourceTree = "<group>"; };
+		D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicalOperatorTuts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +147,11 @@
 		D4036B971E57101C0032B8CE /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				D47C44671E5C0E0F00EBCB21 /* LogicalOperator */,
+				D47C44621E5C06E100EBCB21 /* Dictionary */,
+				D47C445F1E5C04F900EBCB21 /* Casting */,
+				D47C445C1E5C016200EBCB21 /* Random */,
+				D47C44571E5BF8AB00EBCB21 /* Loops */,
 				D4036B991E57103F0032B8CE /* Arrays */,
 				D4036B981E5710320032B8CE /* Variables */,
 			);
@@ -153,6 +172,48 @@
 				D4036B941E5709FD0032B8CE /* ArrayTutorials.swift */,
 			);
 			name = Arrays;
+			sourceTree = "<group>";
+		};
+		D47C44571E5BF8AB00EBCB21 /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				D47C44581E5BF8C100EBCB21 /* ForLoops.swift */,
+				D47C445A1E5BFF6D00EBCB21 /* WhileLoops.swift */,
+			);
+			name = Loops;
+			sourceTree = "<group>";
+		};
+		D47C445C1E5C016200EBCB21 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				D47C445D1E5C018400EBCB21 /* RandomNumber.swift */,
+			);
+			name = Random;
+			sourceTree = "<group>";
+		};
+		D47C445F1E5C04F900EBCB21 /* Casting */ = {
+			isa = PBXGroup;
+			children = (
+				D47C44601E5C050E00EBCB21 /* CastingTutorials.swift */,
+			);
+			name = Casting;
+			sourceTree = "<group>";
+		};
+		D47C44621E5C06E100EBCB21 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D47C44631E5C06FD00EBCB21 /* DictionaryTutorials.swift */,
+				D47C44651E5C0C6000EBCB21 /* IterateDictionary.swift */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		D47C44671E5C0E0F00EBCB21 /* LogicalOperator */ = {
+			isa = PBXGroup;
+			children = (
+				D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */,
+			);
+			name = LogicalOperator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47C44661E5C0C6000EBCB21 /* IterateDictionary.swift in Sources */,
+				D47C445E1E5C018400EBCB21 /* RandomNumber.swift in Sources */,
+				D47C44641E5C06FD00EBCB21 /* DictionaryTutorials.swift in Sources */,
+				D47C44611E5C050E00EBCB21 /* CastingTutorials.swift in Sources */,
+				D47C44591E5BF8C100EBCB21 /* ForLoops.swift in Sources */,
+				D47C44691E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift in Sources */,
+				D47C445B1E5BFF6D00EBCB21 /* WhileLoops.swift in Sources */,
 				D4036B451E56C5E30032B8CE /* ViewController.swift in Sources */,
 				D4036B951E5709FD0032B8CE /* ArrayTutorials.swift in Sources */,
 				D4036B431E56C5E30032B8CE /* AppDelegate.swift in Sources */,
@@ -537,6 +605,7 @@
 				D4036B691E56C5E40032B8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4036B6A1E56C5E40032B8CE /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +614,7 @@
 				D4036B6C1E56C5E40032B8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4036B6D1E56C5E40032B8CE /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +623,7 @@
 				D4036B6F1E56C5E40032B8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

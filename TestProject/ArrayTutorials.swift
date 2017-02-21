@@ -9,6 +9,7 @@
 import Foundation
 
 public func tryOutArrayTutorials(){
+    print("\n\nArray Tutorials *****\n")
 
     // declare and initialize array variable
     var arrayVariable = [String]()

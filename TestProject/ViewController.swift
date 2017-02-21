@@ -23,6 +23,25 @@ class ViewController: UIViewController {
         /* Array tutorials */
         tryOutArrayTutorials()
         
+        /*try foor loops*/
+        tryForLoops()
+        
+        /*try random number*/
+        tryRandomNo()
+        
+        /*try casting tutorials*/
+        tryCastingTuts()
+        
+        /* try Dictionary*/
+        tryDictionaryTuts()
+        
+        /* try iterating with Dictionary*/
+        tryIterationWithDictionary()
+        
+        /* try logical operator*/
+        tryLogicalOperator()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
