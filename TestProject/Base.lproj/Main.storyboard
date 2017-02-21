@@ -9,6 +9,74 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Data Pass View1-->
+        <scene sceneID="QMn-RP-zEL">
+            <objects>
+                <viewController id="lGR-oc-279" customClass="DataPassView1" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KSn-oL-jru"/>
+                        <viewControllerLayoutGuide type="bottom" id="2cn-kz-KYN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tgG-LG-XhD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kg2-ZB-YJg">
+                                <rect key="frame" x="0.0" y="220" width="359" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click to send data"/>
+                                <connections>
+                                    <segue destination="6Lp-YN-kI1" kind="show" id="xa5-ty-sdb"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Send data from here" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qi9-O8-gOb">
+                                <rect key="frame" x="16" y="141" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65330299040203266" green="1" blue="0.80289297224152412" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="qi9-O8-gOb" id="xfA-yf-7bl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPi-Jn-0II" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="820.83958020989508"/>
+        </scene>
+        <!--Data Pass View2-->
+        <scene sceneID="3FA-9O-fdB">
+            <objects>
+                <viewController id="6Lp-YN-kI1" customClass="DataPassView2" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dgs-tb-GJi"/>
+                        <viewControllerLayoutGuide type="bottom" id="5ni-H6-yY4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="94S-BR-kZs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text to desplay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44z-p7-C2U">
+                                <rect key="frame" x="16" y="286" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.95809249279999997" green="1" blue="0.98140954030000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31492666914127282" green="0.68752045157068065" blue="0.17293947299844242" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="44z-p7-C2U" id="0Qw-dS-r6V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ut7-iW-g62" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917.5999999999999" y="826.23688155922048"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -22,7 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hd-Us-RPg">
-                                <rect key="frame" x="16" y="72" width="273" height="30"/>
+                                <rect key="frame" x="16" y="72" width="301" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.59898114555938375" blue="0.62957721169168046" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button New View Controller">
@@ -30,6 +98,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="Cve-YH-368" kind="show" id="pL3-7K-iDp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ve6-0p-sbb">
+                                <rect key="frame" x="16" y="120" width="301" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54438308530887203" green="1" blue="0.76608380648355801" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pass data between two ViewController"/>
+                                <connections>
+                                    <segue destination="lGR-oc-279" kind="show" id="cTN-Uc-CTV"/>
                                 </connections>
                             </button>
                         </subviews>
