@@ -25,6 +25,11 @@
 		D47C44691E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */; };
 		D47C446F1E5C2EC800EBCB21 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C446E1E5C2EC800EBCB21 /* Basics.swift */; };
 		D4BB51041E5D471E007CEDB2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB51031E5D471E007CEDB2 /* TableViewController.swift */; };
+		D4BB51061E5D6B15007CEDB2 /* TableViewControllerWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB51051E5D6B15007CEDB2 /* TableViewControllerWithImage.swift */; };
+		D4BB510E1E5D8ABE007CEDB2 /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4BB510B1E5D8ABE007CEDB2 /* tiger.jpg */; };
+		D4BB510F1E5D8ABE007CEDB2 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4BB510C1E5D8ABE007CEDB2 /* cat.jpg */; };
+		D4BB51101E5D8ABE007CEDB2 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4BB510D1E5D8ABE007CEDB2 /* dog.jpg */; };
+		D4BB51141E5DA48A007CEDB2 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB51131E5DA48A007CEDB2 /* CustomTableView.swift */; };
 		D4D700481E5C5E090091648D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D700471E5C5E090091648D /* NewViewController.swift */; };
 		D4D7004C1E5C68EF0091648D /* DataPassView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7004B1E5C68EF0091648D /* DataPassView1.swift */; };
 		D4D7004E1E5C6A150091648D /* DataPassView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7004D1E5C6A150091648D /* DataPassView2.swift */; };
@@ -72,6 +77,11 @@
 		D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicalOperatorTuts.swift; sourceTree = "<group>"; };
 		D47C446E1E5C2EC800EBCB21 /* Basics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		D4BB51031E5D471E007CEDB2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D4BB51051E5D6B15007CEDB2 /* TableViewControllerWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerWithImage.swift; sourceTree = "<group>"; };
+		D4BB510B1E5D8ABE007CEDB2 /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tiger.jpg; path = ../../../../Desktop/tiger.jpg; sourceTree = "<group>"; };
+		D4BB510C1E5D8ABE007CEDB2 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../../../Desktop/cat.jpg; sourceTree = "<group>"; };
+		D4BB510D1E5D8ABE007CEDB2 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = ../../../../Desktop/dog.jpg; sourceTree = "<group>"; };
+		D4BB51131E5DA48A007CEDB2 /* CustomTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
 		D4D700471E5C5E090091648D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		D4D7004B1E5C68EF0091648D /* DataPassView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPassView1.swift; sourceTree = "<group>"; };
 		D4D7004D1E5C6A150091648D /* DataPassView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPassView2.swift; sourceTree = "<group>"; };
@@ -136,6 +146,11 @@
 				D4D7004B1E5C68EF0091648D /* DataPassView1.swift */,
 				D4D7004D1E5C6A150091648D /* DataPassView2.swift */,
 				D4BB51031E5D471E007CEDB2 /* TableViewController.swift */,
+				D4BB51051E5D6B15007CEDB2 /* TableViewControllerWithImage.swift */,
+				D4BB51131E5DA48A007CEDB2 /* CustomTableView.swift */,
+				D4BB510B1E5D8ABE007CEDB2 /* tiger.jpg */,
+				D4BB510C1E5D8ABE007CEDB2 /* cat.jpg */,
+				D4BB510D1E5D8ABE007CEDB2 /* dog.jpg */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -370,9 +385,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BB51101E5D8ABE007CEDB2 /* dog.jpg in Resources */,
+				D4BB510F1E5D8ABE007CEDB2 /* cat.jpg in Resources */,
 				D4036B4D1E56C5E30032B8CE /* LaunchScreen.storyboard in Resources */,
 				D4036B4A1E56C5E30032B8CE /* Assets.xcassets in Resources */,
 				D4036B481E56C5E30032B8CE /* Main.storyboard in Resources */,
+				D4BB510E1E5D8ABE007CEDB2 /* tiger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +425,11 @@
 				D47C44691E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift in Sources */,
 				D4D7004C1E5C68EF0091648D /* DataPassView1.swift in Sources */,
 				D47C445B1E5BFF6D00EBCB21 /* WhileLoops.swift in Sources */,
+				D4BB51061E5D6B15007CEDB2 /* TableViewControllerWithImage.swift in Sources */,
 				D4036B451E56C5E30032B8CE /* ViewController.swift in Sources */,
 				D4BB51041E5D471E007CEDB2 /* TableViewController.swift in Sources */,
 				D4D700481E5C5E090091648D /* NewViewController.swift in Sources */,
+				D4BB51141E5DA48A007CEDB2 /* CustomTableView.swift in Sources */,
 				D4036B951E5709FD0032B8CE /* ArrayTutorials.swift in Sources */,
 				D4036B431E56C5E30032B8CE /* AppDelegate.swift in Sources */,
 				D4036B911E56F9220032B8CE /* StringAndCharacter.swift in Sources */,
