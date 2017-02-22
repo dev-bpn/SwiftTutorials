@@ -8,9 +8,9 @@
 
 import UIKit
 
-class CustomTableViewController: UITableViewController {
+class TableViewControllerWithImage: UITableViewController {
 
-    let animals = ["tiger.jpg , cat.jpg , dog.jpg"]
+    let animals = ["tiger.jpg" , "cat.jpg" , "dog.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,10 +19,6 @@ class CustomTableViewController: UITableViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        return 1
-//    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -40,8 +36,5 @@ class CustomTableViewController: UITableViewController {
         
     }
 
-//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return "Section \(section)"
-//    }
 
 }
