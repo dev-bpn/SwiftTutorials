@@ -24,6 +24,7 @@
 		D47C44661E5C0C6000EBCB21 /* IterateDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44651E5C0C6000EBCB21 /* IterateDictionary.swift */; };
 		D47C44691E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */; };
 		D47C446F1E5C2EC800EBCB21 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C446E1E5C2EC800EBCB21 /* Basics.swift */; };
+		D4BB51041E5D471E007CEDB2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB51031E5D471E007CEDB2 /* TableViewController.swift */; };
 		D4D700481E5C5E090091648D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D700471E5C5E090091648D /* NewViewController.swift */; };
 		D4D7004C1E5C68EF0091648D /* DataPassView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7004B1E5C68EF0091648D /* DataPassView1.swift */; };
 		D4D7004E1E5C6A150091648D /* DataPassView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7004D1E5C6A150091648D /* DataPassView2.swift */; };
@@ -70,6 +71,7 @@
 		D47C44651E5C0C6000EBCB21 /* IterateDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IterateDictionary.swift; sourceTree = "<group>"; };
 		D47C44681E5C0E2B00EBCB21 /* LogicalOperatorTuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicalOperatorTuts.swift; sourceTree = "<group>"; };
 		D47C446E1E5C2EC800EBCB21 /* Basics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
+		D4BB51031E5D471E007CEDB2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D4D700471E5C5E090091648D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		D4D7004B1E5C68EF0091648D /* DataPassView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPassView1.swift; sourceTree = "<group>"; };
 		D4D7004D1E5C6A150091648D /* DataPassView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPassView2.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				D4036B4E1E56C5E40032B8CE /* Info.plist */,
 				D4D7004B1E5C68EF0091648D /* DataPassView1.swift */,
 				D4D7004D1E5C6A150091648D /* DataPassView2.swift */,
+				D4BB51031E5D471E007CEDB2 /* TableViewController.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				D4D7004C1E5C68EF0091648D /* DataPassView1.swift in Sources */,
 				D47C445B1E5BFF6D00EBCB21 /* WhileLoops.swift in Sources */,
 				D4036B451E56C5E30032B8CE /* ViewController.swift in Sources */,
+				D4BB51041E5D471E007CEDB2 /* TableViewController.swift in Sources */,
 				D4D700481E5C5E090091648D /* NewViewController.swift in Sources */,
 				D4036B951E5709FD0032B8CE /* ArrayTutorials.swift in Sources */,
 				D4036B431E56C5E30032B8CE /* AppDelegate.swift in Sources */,
