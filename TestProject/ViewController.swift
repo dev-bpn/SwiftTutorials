@@ -7,8 +7,7 @@
 //
 
 import UIKit
-//import Cocoa
-
+import Toast_Swift
 
 class ViewController: UIViewController {
     
@@ -69,7 +68,26 @@ class ViewController: UIViewController {
     
     @IBAction func showToast(_ sender: UIButton) {
         
+        // basic usage
+        self.view.makeToast("This is a piece of toast")
         
+        // toast with a specific duration and position
+        self.view.makeToast("This is a piece of toast", duration: 3.0, position: .top)
+        
+        // toast with all possible options
+        self.view.makeToast("This is a piece of toast", duration: 2.0, position: CGPoint(x: 110.0, y: 110.0), title: "Toast Title", image: UIImage(named: "toast.png"), style:nil) { (didTap: Bool) -> Void in
+            if didTap {
+                print("completion from tap")
+            } else {
+                print("completion without tap")
+            }
+        }
+        
+        // display toast with an activity spinner
+        self.view.makeToastActivity(.center)
+        
+        // display any view as toast
+//        self.view.showToast(myView)
         
     }
 
