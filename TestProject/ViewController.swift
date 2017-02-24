@@ -12,6 +12,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var showDialog: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -41,17 +43,35 @@ class ViewController: UIViewController {
         /* try logical operator*/
         tryLogicalOperator()
         
+    }
+    
+    @IBAction func onShowDialogCLick(_ sender: UIButton) {
+        
+        // create the alert
+        let alert = UIAlertController(title: "My Title", message: "This is my message.", preferredStyle: UIAlertControllerStyle.alert)
+        
+        // add the actions (buttons)
+        alert.addAction(UIAlertAction(title: "Continue", style: UIAlertActionStyle.default, handler: { action in
+            
+            print("Dialog btn CONTINUE click!! ")
+            // do something like...
+            
+            
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))
+
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
         
     }
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func showToast(_ sender: UIButton) {
+        
+        
+        
     }
-
-
-    
 
 }
 

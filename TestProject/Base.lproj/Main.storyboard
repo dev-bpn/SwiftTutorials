@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cPi-Jn-0II" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="820.83958020989508"/>
+            <point key="canvasLocation" x="617" y="-1367"/>
         </scene>
         <!--Data Pass View2-->
         <scene sceneID="3FA-9O-fdB">
@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ut7-iW-g62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1917.5999999999999" y="826.23688155922048"/>
+            <point key="canvasLocation" x="1494" y="-1366"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="S6z-Mj-294">
@@ -112,7 +112,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bWb-sH-7Oq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="-599"/>
+            <point key="canvasLocation" x="137" y="-633"/>
         </scene>
         <!--Table View Controller With Image-->
         <scene sceneID="Jp1-6A-akH">
@@ -153,7 +153,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Re-TF-Fb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068" y="-614.84257871064472"/>
+            <point key="canvasLocation" x="1076" y="-634"/>
         </scene>
         <!--Custom Table View-->
         <scene sceneID="zkh-Bt-a2H">
@@ -209,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8sw-Ak-2FR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1896.8" y="-606.74662668665667"/>
+            <point key="canvasLocation" x="1999" y="-635"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -272,10 +272,33 @@
                                     <segue destination="RYk-P8-WY7" kind="show" id="ebo-O8-02m"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdG-iU-N72">
+                                <rect key="frame" x="16" y="318" width="301" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.21339507739036659" green="0.71895451570680624" blue="0.061233558025423532" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show Dialog ">
+                                    <color key="titleColor" red="0.95809249279999997" green="1" blue="0.98140954030000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onShowDialogCLick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgV-67-OKy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zd-YH-8kV">
+                                <rect key="frame" x="16" y="356" width="301" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94333848912300611" green="1" blue="0.29949264805252307" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show Toast"/>
+                                <connections>
+                                    <action selector="showToast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OtS-Mw-tDV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70120686674324384" green="0.97393261404944853" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vpE-gP-rGu"/>
+                    <connections>
+                        <outlet property="showDialog" destination="WdG-iU-N72" id="HVr-9Q-PjB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -328,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peG-2l-V4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1920.8" y="106.59670164917542"/>
+            <point key="canvasLocation" x="1076" y="-2170"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GuQ-Rh-Kmm">
